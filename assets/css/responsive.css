@@ -1,0 +1,606 @@
+/* Mobile & Tablet */
+@media (max-width: 1023px) {
+
+    .hide-on-mobile-tablet {
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    .grid.wide {
+        width: 100%;
+        margin: 0 14px;
+    }
+
+    /*Header*/
+
+    .header{
+        height: 120px;
+    }
+
+    .header__menu{
+       width: 100%;
+       border: none;
+    }
+
+    .header__logo{
+        padding: 0 14px 0 34px;
+    }
+
+    .header__logo-img{
+        width: 88px;
+        height: auto;
+    }
+
+    .header__menu-sub{
+        margin-right: 34px;
+    }
+
+    .header__menu-sub-link{
+        font-size: 1.6rem;
+    }
+
+    /* Body */
+
+    /* Slider */
+
+    .slider-info{
+        width: 70%;
+        height: 50px;
+        
+    }
+
+    .slider__head{
+        font-size: 1.6rem;
+        font-weight: 600;
+        color: rgb(216, 211, 211);
+        
+    }
+
+    .slider__sub{
+        font-size: 1.2rem;
+        font-weight: 400;
+        color: rgb(216, 211, 211);
+        line-height: 1.2rem;
+        margin: 0;
+    }
+
+    /* Team */
+
+    .squad{
+        margin: 24px;
+    }
+
+    .squad__head{
+        font-size: 2.6rem;
+        margin-bottom: 24px;
+    }
+
+    .squad__head::after {
+        width: 80px;
+        margin-top: -6px;
+    }
+
+    .squad__position{
+        height: auto;
+        
+    }
+
+    .squad__position-name{
+        font-size: 1.8rem;
+        margin-top: 16px;
+        padding: 0;
+    }
+
+    .squad__info{
+       height: auto;
+       flex-wrap: wrap;
+       margin-top: 12px;
+    }
+
+    .squad__player{
+        width: 160px;
+        height: 160px;
+        margin: 10px;
+    }
+
+    .squad__player-img{
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+    }
+
+
+    /* Manager */
+    .manager{
+        padding-top: 10px;
+        height: auto;
+    }
+
+    .manager__info{
+        height: 400px;
+    }
+
+    .manager__info-sub{
+        padding: 24px 14px;
+        width: 190px;
+    }
+
+    .manager__head{
+        font-size: 2.6rem;
+        margin-top: 8px;
+    }
+
+    .manager__head::after{
+        width: 140px;
+        left: 0;
+        bottom: -8px;
+    }
+
+    .manager__name{
+        font-size: 1.8rem;
+        line-height: 1.8rem;
+        margin-bottom: 20px;
+    }
+
+    .manager__speak{
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        height: auto;
+    }
+
+    .manager__img {
+        margin: 0;
+     }
+     
+    .manager__img-link{
+        width: 450px;
+        height: auto;
+        margin-top: 50%;
+        transform: translateY(-31%);
+     }
+
+    .manager__history{
+        padding: 24px 0;
+        font-size: 1.4rem;
+        font-weight: 300;
+        
+     }
+
+     .manager__bio{
+        height: 200px;
+        display: flex;
+        margin: 24px;
+     }
+
+     .bio__sub{
+        width: 45%;
+        margin-right: 16px;
+        border-bottom: none;
+        border-right: 1px solid #ccc;
+     }
+
+     .bio__info-sub{
+        margin-bottom: 16px;
+     }
+
+     .bio__title{
+        font-size: 1.4rem;
+     }
+
+     .bio__info{
+        width: 55%;
+     }
+
+     /* Legend */
+
+     .legend {
+        height: auto;
+        padding-bottom: 16px;
+     }
+
+     .legend__head {
+        padding: 44px 24px;
+     }
+
+     .legend__head::after{
+        width: 110px;
+     }
+
+     .legend__head-info{
+        font-size: 2.6rem;
+     }
+
+     /* Footer */
+
+     .app__footer{
+        height: auto;
+        padding: 24px;
+     }
+
+     .footer__logo{
+        margin: 0;
+     }
+
+     .footer__content{
+        margin: 0;
+        padding-bottom: 20px;
+     }
+
+     .footer__contact{
+        padding-right: 24px;
+     }
+
+     .footer__name{
+        font-size: 1.6rem;
+        font-weight: 400;
+     }
+
+     .footer__app-link{
+        display: flex;
+        justify-content: space-between;
+        
+     }
+
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .grid.wide {
+        width: 100%;
+        margin: 0 14px;
+    }
+
+    /*Header*/
+
+    .header{
+        height: 50px;
+        position: fixed;
+        z-index: 1;
+    }
+
+    .header__logo{
+        padding: 0;
+        margin: 6px 0;
+    }
+
+    .header__logo-img{
+        width: 36px;
+        height: auto;
+    }
+    
+    .header__menu {
+        border: none;
+    }
+
+    .header__bar{
+     /* width: 40px; */
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        margin:0 16px;
+    }
+
+    .header__bar-icon
+    {
+        color: #fff;
+        font-size: 2.2rem;
+    }
+
+    /* Body */
+
+    .app__container{
+       margin-top: 50px;
+    }
+
+    /* Slider */
+
+    .slider-info{
+        width: 90%;
+        height: 30px;
+    }
+
+    .slider__head{
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: rgb(216, 211, 211);
+    }
+
+    .slider__sub{
+        font-size: 0.8rem;
+        font-weight: 400;
+        height: 0.8rem;
+        color: rgb(216, 211, 211);
+        line-height: 1rem;
+        margin: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    /* Team */
+
+    .squad{
+        margin: 16px;
+    }
+
+    .squad__head{
+        font-size: 2rem;
+        margin-bottom: 18px;
+    }
+
+    .squad__head::after {
+        width: 60px;
+        margin-top: -6px;
+        border-width: 3px;
+    }
+
+    .squad__position{
+        height: auto;
+    }
+
+    .squad__position-name{
+        font-size: 1.4rem;
+        margin-top: 12px;
+        padding: 0;
+    }
+
+    .squad__info{
+       height: auto;
+       flex-wrap: wrap;
+       margin-top: 12px;
+    }
+
+    .squad__player{
+        width: 160px;
+        height: 160px;
+        margin: 10px;
+    }
+
+    .squad__player-img{
+        width: 160px;
+        height: 160px;
+        object-fit: cover;
+    }
+
+
+    /* Manager */
+    .manager{
+        padding-top: 10px;
+        height: auto;
+    }
+
+    .manager__info{
+        height: 300px;
+        position: relative;
+    }
+
+    .manager__info-sub{
+        padding: 14px;
+        width: 190px;
+    }
+
+    .manager__head{
+        font-size: 2rem;
+    }
+
+    .manager__head::after{
+        width: 100px;
+        left: 0;
+        bottom: -8px;
+        border-width: 3px;
+    }
+
+    .manager__name{
+        font-size: 1.4rem;
+        line-height: 1.4rem;
+        margin-bottom: 12px;
+    }
+
+    .manager__speak{
+        font-size: 1rem;
+        line-height: 1.8rem;
+        height: auto;
+    }
+
+    .manager__img {
+        margin: 0;
+     }
+     
+    .manager__img-link{
+        position: absolute;
+        width: 250px;
+        height: auto;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+     }
+
+    .manager__history{
+        padding: 44px;
+        font-size: 1.2rem;
+        font-weight: 300;
+        margin-left: 44px;
+     }
+
+     .manager__win{
+        margin: 12px 0;
+     }
+
+     .manager__bio{
+        height: 150px;
+        margin: 14px;
+     }
+
+     .bio__sub{
+        margin-right: 16px;
+     }
+
+     .bio__head{
+        font-size: 1.2rem;
+     }
+
+     .bio__title{
+        font-size: 1rem;
+        line-height: 1.2rem;
+        margin: 0;
+     }
+
+     .bio__info{
+        flex-direction: column;
+     }
+
+     .bio__info-item{
+        display: flex;
+        flex-direction: row;
+     }
+
+     .bio__info-sub{
+        display: flex;
+        height: 30px;
+        margin-bottom: 0;
+        align-items: center;
+        width: 50%;
+     }
+
+     .bio__info-head{
+        font-size: 1rem;
+        margin: 0 10px 0 0;
+     }
+
+     .bio__info-body{
+        font-size: 1rem;
+     }
+
+     .bio__info-date,
+     .bio__info-country{
+        font-size: 1rem;
+        margin: 0;
+     }
+
+     .bio__info-country-img{
+        margin: 0 4px 0 0;
+        width: 26px;
+     }
+
+     small{
+        font-size: 0.8rem;
+     }
+
+
+     .bio__info{
+      
+     }
+
+     /* Legend */
+
+     .legend {
+        height: auto;
+        padding-bottom: 16px;
+     }
+
+     .legend__head {
+
+        padding: 44px 24px;
+     }
+
+     .legend__head::after{
+        width: 86px;
+        border-width: 3px ;
+        margin-top: 4px;
+     }
+
+     .legend__head-info{
+        font-size: 2rem;
+     }
+
+     /* Footer */
+
+     .app__footer{
+        height: auto;
+        padding: 12px;
+        margin-bottom: 14px;
+     }
+
+     .footer__logo{
+        margin: 0;
+        height: 50px;
+     }
+
+     .footer__logo-img{
+        width: 40px;
+        height: auto;
+     }
+
+     .footer__content{
+        margin: 0;
+        padding-bottom: 20px;
+        flex-wrap: wrap;
+     }
+
+     .footer__contact{
+        padding: 0;
+        height: 50px;
+        flex-wrap: nowrap;
+     }
+
+     .footer__name{
+        font-size: 1.4rem;
+        font-weight: 400;
+     }
+
+     .footer__sub-title {
+        font-size: 1.2rem;
+     }
+
+     .footer__link{
+        padding: 0;
+        border: none;
+        margin-left: 44px;
+     }
+
+     .footer__app {
+        border: none;
+        display: flex;
+        align-items: center;
+        padding: 0;
+        margin: 12px 0;
+     }
+
+     .footer__app-icon{
+        width: 60px;
+     }
+
+     .footer__app-link{
+        display: flex;
+        justify-content: space-between;
+        
+     }
+
+     .footer__app-title{
+        margin-right: 14px;
+     }
+
+     .footer__app-title-content{
+        font-size: 1.2rem;
+        margin: 12px 0;
+     }
+
+     .footer__footer{
+        padding: 14px;
+        width: 100%;
+        text-align: center;
+     }
+
+}
+
