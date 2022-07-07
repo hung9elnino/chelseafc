@@ -447,7 +447,7 @@ small{
 
 .legend__btn-item{
     min-width: 250px;
-    min-height: 250px;
+    height: 250px;
     position: relative;
     border-radius: 20px;
     margin: 16px 16px;
